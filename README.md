@@ -2,7 +2,8 @@
 ## Visit the website 
 https://pierovicenti.github.io/CryptoShow/
 
-## Programming Languages
+## Programming Languages & API
 -ReactJS
-- Axios has been used to make api request
+<br>
+-Axios has been used to make api request
 
