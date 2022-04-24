@@ -1,8 +1,9 @@
 import { AppBar, Container, createTheme, Menu, MenuItem, Select, ThemeProvider, Toolbar, Typography } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core';
-import React from 'react'
 import {useNavigate} from "react-router-dom";
 import { CryptoState } from '../CryptoContext';
+
+
 
 const useStyles = makeStyles(()=>({
   Title: {
@@ -26,7 +27,7 @@ const Header = () => {
       },
       type: "dark",
     },
-  })
+  });
 
   return (
   <ThemeProvider theme={darkTheme}>

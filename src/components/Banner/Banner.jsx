@@ -1,5 +1,7 @@
 import { Container, makeStyles, Typography } from "@material-ui/core";
 import Carousel from "./Carousel";
+import countapi from 'countapi-js';
+import {useState, useEffect} from 'react';
 
 const useStyles = makeStyles((theme) => ({
   banner: {
@@ -28,6 +30,17 @@ const useStyles = makeStyles((theme) => ({
 
 function Banner() {
   const classes = useStyles();
+  const [visits, setVisits] = useState(0);
+
+  function countVisitors(){
+    countapi.visits("page", "pierovicenti.github.io/CryptoShow").then((result) => {
+      setVisits(result.value);
+  });
+  }
+
+useEffect(()=>{
+  countVisitors();
+},[]);
 
   return (
     <div className={classes.banner}>
@@ -53,6 +66,16 @@ function Banner() {
           >
             Get all the Info regarding your favorite Crypto Currency
           </Typography>
+          <Typography
+            variant="subtitle2"
+            style={{
+              color: "darkgrey",
+              textTransform: "capitalize",
+              fontFamily: "Montserrat",
+            }}
+          >
+          </Typography>
+          <Typography variant="subtitle2" style={{color: "darkgrey", textTransform: "capitalize", fontFamily: "Montserrat"}}>Website Visited {visits} times</Typography>
         </div>
         <Carousel />
       </Container>
