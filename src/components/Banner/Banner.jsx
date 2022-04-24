@@ -35,6 +35,7 @@ function Banner() {
   function countVisitors(){
     countapi.visits("page", "pierovicenti.github.io/CryptoShow").then((result) => {
       setVisits(result.value);
+      console.log(result.value);
   });
   }
 
