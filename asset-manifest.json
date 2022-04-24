@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/CryptoShow/static/css/main.9cb6289b.css",
-    "main.js": "/CryptoShow/static/js/main.76a586ee.js",
+    "main.js": "/CryptoShow/static/js/main.5026ae50.js",
     "index.html": "/CryptoShow/index.html",
     "main.9cb6289b.css.map": "/CryptoShow/static/css/main.9cb6289b.css.map",
-    "main.76a586ee.js.map": "/CryptoShow/static/js/main.76a586ee.js.map"
+    "main.5026ae50.js.map": "/CryptoShow/static/js/main.5026ae50.js.map"
   },
   "entrypoints": [
     "static/css/main.9cb6289b.css",
-    "static/js/main.76a586ee.js"
+    "static/js/main.5026ae50.js"
   ]
 }
