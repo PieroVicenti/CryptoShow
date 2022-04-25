@@ -21,7 +21,6 @@ function App() {
   return(
     <BrowserRouter>
       <div className={classes.App}>
-        <Homepage/>
         <Header/>
         <Routes>
         <Route path='/' element={<Homepage/>} exact/>
