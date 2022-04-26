@@ -23,7 +23,7 @@ function App() {
       <div className={classes.App}>
         <Header/>
         <Routes>
-        <Route path='/CryptoShow' element={<Homepage/>} exact/>
+        <Route path='/' element={<Homepage/>} exact/>
         <Route path='/coins/:id' element={<CoinPage/>}/>
         </Routes>
       </div>
