@@ -5,5 +5,5 @@ https://crypto-mania-show.netlify.app/
 ### Programmign Languages
 React JS
 
-### API
+### API sources
 Coingecko (Through RapidApi)
