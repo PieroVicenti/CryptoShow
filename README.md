@@ -6,4 +6,4 @@ https://crypto-mania-show.netlify.app/
 -React JS
 
 ### API sources
--Coingecko (Through RapidApi)
+-Coingecko (Through RapidApi), all the info related to each coin.
