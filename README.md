@@ -7,3 +7,4 @@ https://crypto-mania-show.netlify.app/
 
 ### API sources
 -Coingecko (Through RapidApi), all the info related to each coin.
+-
