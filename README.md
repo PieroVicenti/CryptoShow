@@ -9,4 +9,4 @@ https://crypto-mania-show.netlify.app/
 -Coingecko (Through RapidApi), all the info related to each coin.
 <br>
 -CountApi (Porvides number of visits on the website).
-CoinMarket for Gainers and losers
+-CoinMarket for list of Gainers and losers of the day
