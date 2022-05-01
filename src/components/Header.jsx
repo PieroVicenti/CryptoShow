@@ -11,6 +11,13 @@ const useStyles = makeStyles(()=>({
     fontWeight: 'bold',
     cursor: 'pointer',
     fontFamily: 'Montserrat'
+  },
+  Title2:{
+    flex: 1,
+    color: "gold",
+    fontWeight: 'bold',
+    cursor: 'pointer',
+    fontFamily: 'Montserrat'
   }
 }))
 const Header = () => {
@@ -29,13 +36,13 @@ const Header = () => {
   });
 
   return (
+    <>
   <ThemeProvider theme={darkTheme}>
     <AppBar color='transparent' position='static'>
       <Container>
         <Toolbar>
-          <Typography onClick={()=> history("/")} className={classes.Title} variant="h6">
-            CryptoMania
-          </Typography>
+          <Typography onClick={()=> history("/")} className={classes.Title} variant="h6">CryptoMania</Typography>
+          <Typography onClick={()=> history("/GainersAndLosers")} className={classes.Title2} variant="h6">Gainers & Losers</Typography>
           <Select value={currency} onChange={(e) => setCurrency(e.target.value)} variant='outlined' style={{width: 100, height: 40, marginRight: 15}}>
             <MenuItem value={"USD"}>USD</MenuItem>
             <MenuItem value={"GBP"}>GBP</MenuItem>
@@ -45,6 +52,7 @@ const Header = () => {
       </Container>
     </AppBar>
   </ThemeProvider>
+  </>
   )
 };
 

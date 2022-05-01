@@ -5,6 +5,7 @@ import Header from './components/Header';
 import CoinPage from './Pages/CoinPage';
 import Homepage from './Pages/Homepage';
 import {makeStyles} from "@material-ui/core";
+import GainersAndLosers from './Pages/GainersAndLosers';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         <Routes>
         <Route path='/' element={<Homepage/>} exact/>
         <Route path='/coins/:id' element={<CoinPage/>}/>
+        <Route path='/GainersAndLosers' element={<GainersAndLosers/>}/>
         </Routes>
       </div>
     </BrowserRouter>
