@@ -1,4 +1,4 @@
-import { AppBar, Container, createTheme, Menu, MenuItem, Select, ThemeProvider, Toolbar, Typography } from '@material-ui/core'
+import { AppBar, Avatar, Container, createTheme, Menu, MenuItem, Select, ThemeProvider, Toolbar, Typography } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core';
 import {useNavigate} from "react-router-dom";
 import { CryptoState } from '../CryptoContext';
@@ -8,6 +8,9 @@ const useStyles = makeStyles(()=>({
   Title: {
     flex: 1,
     color: "#A82BE2",
+    '&:hover': {
+      color: "gold",
+   },
     fontWeight: 'bold',
     cursor: 'pointer',
     fontFamily: 'Montserrat'
@@ -15,6 +18,9 @@ const useStyles = makeStyles(()=>({
   Title2:{
     flex: 1,
     color: "gold",
+    '&:hover': {
+      color: "#A82BE2",
+   },
     fontWeight: 'bold',
     cursor: 'pointer',
     fontFamily: 'Montserrat'
@@ -41,7 +47,7 @@ const Header = () => {
     <AppBar color='transparent' position='static'>
       <Container>
         <Toolbar>
-          <Typography onClick={()=> history("/")} className={classes.Title} variant="h6">CryptoMania</Typography>
+          <Typography onClick={()=> history("/")} className={classes.Title} variant="h6">Home</Typography>
           <Typography onClick={()=> history("/GainersAndLosers")} className={classes.Title2} variant="h6">Gainers & Losers</Typography>
           <Select value={currency} onChange={(e) => setCurrency(e.target.value)} variant='outlined' style={{width: 100, height: 40, marginRight: 15}}>
             <MenuItem value={"USD"}>USD</MenuItem>

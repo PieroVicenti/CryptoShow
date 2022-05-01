@@ -11,7 +11,6 @@ export default function GainersAndLosers (){
   const [loading, setLoading] = useState(false);
   const [gainers, setGainers] = useState([]);
   const [losers, setLosers] = useState([]);
-  const {currency, symbol} = CryptoState();
 
 
   const options = {
