@@ -17,3 +17,4 @@ export const urlGainer = 'https://crypto-tracker.p.rapidapi.com/api/topgainers';
 export const headerKeyLosers = 'e3fb9b7550mshdf0c22c13e820cap1a77bdjsn1d3d1cb2a398'
 export const headerHostLosers = 'crypto-tracker.p.rapidapi.com';
 export const urlLoser = 'https://crypto-tracker.p.rapidapi.com/api/toplosers';
+export const trysidis = "ola";
