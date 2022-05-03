@@ -12,3 +12,5 @@ https://crypto-mania-show.netlify.app/
 <br>
 -CoinMarket for list of Gainers and losers of the day
 <br>
+
+### Homepage
