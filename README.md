@@ -14,3 +14,4 @@ https://crypto-mania-show.netlify.app/
 <br>
 
 ### Homepage
+### CoinPage
