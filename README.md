@@ -16,3 +16,4 @@ https://crypto-mania-show.netlify.app/
 ### Homepage
 ### CoinPage
 ### Gainers and Losers of the day
+### Most visited Crypto of the day
