@@ -6,6 +6,7 @@ import CoinPage from './Pages/CoinPage';
 import Homepage from './Pages/Homepage';
 import {makeStyles} from "@material-ui/core";
 import GainersAndLosers from './Pages/GainersAndLosers';
+import MostVisited from './Pages/MostVisited';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Route path='/' element={<Homepage/>} exact/>
         <Route path='/coins/:id' element={<CoinPage/>}/>
         <Route path='/GainersAndLosers' element={<GainersAndLosers/>}/>
+        <Route path='/MostVisited' element={<MostVisited/>}/>
         </Routes>
       </div>
     </BrowserRouter>

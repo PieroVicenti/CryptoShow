@@ -7,9 +7,9 @@ import { CryptoState } from '../CryptoContext';
 const useStyles = makeStyles(()=>({
   Title: {
     flex: 1,
-    color: "#A82BE2",
+    color: "gold" ,
     '&:hover': {
-      color: "gold",
+      color: "#A82BE2",
    },
     fontWeight: 'bold',
     cursor: 'pointer',
@@ -49,6 +49,7 @@ const Header = () => {
         <Toolbar>
           <Typography onClick={()=> history("/")} className={classes.Title} variant="h6">Home</Typography>
           <Typography onClick={()=> history("/GainersAndLosers")} className={classes.Title2} variant="h6">Gainers & Losers</Typography>
+          <Typography onClick={()=> history("/MostVisited")} className={classes.Title2} variant="h6">Most visited</Typography>
           <Select value={currency} onChange={(e) => setCurrency(e.target.value)} variant='outlined' style={{width: 100, height: 40, marginRight: 15}}>
             <MenuItem value={"USD"}>USD</MenuItem>
             <MenuItem value={"GBP"}>GBP</MenuItem>
