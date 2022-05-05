@@ -18,4 +18,5 @@ https://crypto-mania-show.netlify.app/
 ### CoinPage
 ![CoinPage](https://user-images.githubusercontent.com/91989821/167026487-18626eb1-8b35-43ed-9bac-a0f19ff55fc3.png)
 ### Gainers and Losers of the day
+![Gainers](https://user-images.githubusercontent.com/91989821/167026720-29e2e047-58e5-4f1c-b01c-1d25401f0654.png)
 ### Most visited Crypto of the day
