@@ -22,7 +22,7 @@ https://crypto-mania-show.netlify.app/
 ### Gainers and Losers of the day
 -Gainers:
 ![Gainers](https://user-images.githubusercontent.com/91989821/167026720-29e2e047-58e5-4f1c-b01c-1d25401f0654.png)
-Losers:
+-Losers:
 ![Losers](https://user-images.githubusercontent.com/91989821/167027002-93e61595-5dfe-464a-82c9-afe11e8a896a.png)
 ### Most visited Crypto of the day
 ![Most visited](https://user-images.githubusercontent.com/91989821/167027845-35a458c2-41e6-405c-8c87-85f5dc503b89.png)
