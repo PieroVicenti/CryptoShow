@@ -1,5 +1,5 @@
 # CryptoShow
-### Visit the Website
+- ### Visit the Website
 https://crypto-mania-show.netlify.app/
 
 (Current version is not fully responsive)
