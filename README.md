@@ -4,7 +4,7 @@ https://crypto-mania-show.netlify.app/
 
 (Current version is not fully responsive)
 
-### Programming Languages
+- ### Programming Languages
 -React JS
 
 ### API sources
