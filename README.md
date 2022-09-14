@@ -5,7 +5,7 @@ https://crypto-mania-show.netlify.app/
 (Current version is not fully responsive)
 
 - ### Programming Languages
--React JS
+-JS
 
 - ### API sources
 -Coingecko (Through RapidApi), all the info related to each coin.
